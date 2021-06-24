@@ -13,9 +13,9 @@ import (
 )
 
 type User struct {
-	EmailAddress string `json:"email_address"`
-	FirstName    string `json:"first_name"`
-	LastName     string `json:"last_name"`
+	EmailAddress string `json:"email"`
+	FirstName    string `json:"firstName"`
+	LastName     string `json:"lastName"`
 }
 
 const tableName = "users"
